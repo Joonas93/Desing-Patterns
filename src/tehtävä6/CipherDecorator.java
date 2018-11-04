@@ -20,13 +20,13 @@ private StandardPBEStringEncryptor encryptor = new StandardPBEStringEncryptor();
 		return encryptor.encrypt(disk.getText());
 		}
 	
-	public void Decrypt(Disk disk) {
-		disk.setText(encryptor.decrypt(disk.getText()));
+	public String Decrypt(Disk disk) {
+		return encryptor.decrypt(disk.getText());
 	}
 	
 	public String getText(Disk disk){
-		Decrypt(disk);
-		return disk.getText();
+		
+		return Decrypt(disk);
 	}
 	
 	
