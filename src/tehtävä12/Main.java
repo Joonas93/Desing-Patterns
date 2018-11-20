@@ -26,7 +26,15 @@ public class Main {
 		for (Image i :(List<Image>) album) {
 			i.displayImage();
 			i.displayImage();
+			/*  Outcome:
+			 * 	Loading   img1
+				Displaying img1
+				Displaying img1
+				etc..
+			 * 
+			 */
 		}
+		
 
 
 	}
