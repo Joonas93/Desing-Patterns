@@ -13,8 +13,8 @@ public class Main {
 		lazy.accept(boss);
 		diligent.accept(boss);
 		
-		System.out.println(lazy);
-		System.out.println(diligent);
+		System.out.println(lazy); //Worker [pay=500]
+		System.out.println(diligent); //Worker [pay=1000]
 		
 		
 	}
